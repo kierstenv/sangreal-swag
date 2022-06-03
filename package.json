@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "particles.js": "^2.0.0"
+  },
+  "name": "sangreal-swag",
+  "version": "1.0.0",
+  "description": "Sangreal Media's official website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kierstenv/sangreal-swag.git"
+  },
+  "keywords": [
+    "sangreal",
+    "media"
+  ],
+  "author": "kierstenv",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/kierstenv/sangreal-swag/issues"
+  },
+  "homepage": "https://github.com/kierstenv/sangreal-swag#readme"
+}
