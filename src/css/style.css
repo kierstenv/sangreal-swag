@@ -1,8 +1,8 @@
-*::-webkit-scrollbar {
+body::-webkit-scrollbar {
   display: none;
 }
 
-* {
+body {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
@@ -37,4 +37,56 @@ a.navbar-item {
   position: relative;
   bottom: 600px;
   color: #fff;
+}
+
+/* 
+.partner {
+  position: absolute;
+  animation: scroll 24s alternate-reverse ease 3;
+  white-space: nowrap;
+  transition: transform 500ms;
+  will-change: transform;
+} */
+
+/* .scroll {
+  position: absolute;
+  display: inline-block;
+} */
+
+
+/* .card-image:hover {
+  animation: scroll 4s alternate-reverse ease 3;
+} */
+/* 
+.card-image {
+  position: relative;
+  margin: 0 1%;
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  mix-blend-mode: screen;
+  transition: all 0.5s ease;
+  transform: translateX(-50%) translateY(-50%);
+  transform-origin: center;
+} */
+
+.image {
+  display: flex;
+  position: relative;
+  animation: scroll 26s alternate-reverse ease 6;
+  white-space: nowrap;
+  transition: transform 500ms;
+  will-change: transform;
+}
+
+img.is-rounded {
+  margin: 3%;
+  height: 200px;
+  width: 200px;
+}
+
+@keyframes scroll {
+  from {left: 0px;}
+  to {right: 1400px;}
 }

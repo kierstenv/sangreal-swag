@@ -5,10 +5,7 @@
   "name": "sangreal-swag",
   "version": "1.0.0",
   "description": "Sangreal Media's official website",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "public/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kierstenv/sangreal-swag.git"
