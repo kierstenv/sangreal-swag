@@ -62,3 +62,19 @@
 
 
 
+<!-- edit text fields
+    $(".edit").click(function() {
+      const text = $(this).siblings("p");
+      const input = $("<input type='text' value='" + text.text() + "'>");
+    
+      text.replaceWith(input);
+      input.focus();
+      input.blur(function() {
+        const newText = $(this).val();
+        $(this).replaceWith("<p>" + newText + "</p>");
+      }
+      );
+    }
+    );
+     -->
+    

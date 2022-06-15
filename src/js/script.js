@@ -8,23 +8,12 @@ const scrollLeft = $("figure.image").animate({
   }, 3000, function() {
 });
 
-// const sections = $("section");
-// const container = $(".scrollContainer");
-// container.addEventListener('scroll', function() {
-//   sections.forEach(e, i => {
-//     const top = (e.getBoundingClientRect().top);
-//     if (top == 0) {
-//       e.classList.add('inView');
-//     } else {
-//       e.classList.remove('inView');
-//     }
-//   });
-// // });
-
-// container.dispatchEvent(new Event('scroll'));
 
 $('#about').hover(function(e) {
   console.log(e);
 });
 
 
+$('#about').scroll(function() {
+  console.log(this);
+})
