@@ -30,7 +30,7 @@ header {
   background-color: transparent;
 }
 
-a.navbar-item {
+a.navbar-item, .navbar-button {
   color: #fff;
   text-decoration: none;
 }
